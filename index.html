@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We are the Champions</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="images/freddie.png"
+        alt="silhouette of person with hand raised in victory"
+      />
+      <h1>We are the Champions</h1>
+    </header>
+    <form>
+      <textarea
+        oninput="auto_grow(this)"
+        id="endorsement-field"
+        cols="30"
+        rows="10"
+        placeholder="Write your endorsement here....."
+      ></textarea>
+      <div class="name-inputs">
+        <input id="from-field" type="text" placeholder="From"></input>
+        <input id="to-field" type="text" placeholder="To"></input>
+      </div>
+      <button id="publish-btn" class="publish-btn">Publish</button>
+    </form>
+    <main>
+      <h2>- Endorsements -</h2>
+      <div id="container" class="container">
+        <!-- Endorsements from JavaScript go here -->
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
