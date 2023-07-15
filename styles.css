@@ -33,10 +33,10 @@ textarea,
 input {
   background-color: #444059;
   border: none;
+  font-size: 1rem;
 }
 
 textarea {
-  font-size: 1rem;
   min-width: 320px;
   height: 120px;
   margin: 0 auto 10px auto;
@@ -60,7 +60,6 @@ input {
   height: 40px;
   text-align: center;
   flex-basis: auto;
-  font-size: 1rem;
   border-radius: 0.5rem;
 }
 
