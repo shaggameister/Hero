@@ -13,7 +13,7 @@ html {
 
 body {
   background-color: #1b1924;
-  width: 390px;
+  width: 320px;
   min-height: auto;
   text-align: center;
   margin: 0 auto;
@@ -36,7 +36,7 @@ input {
 }
 
 textarea {
-  width: 320px;
+  min-width: 280px;
   height: 120px;
   margin: 0 auto 10px auto;
   border: none;
@@ -48,7 +48,7 @@ textarea {
 .name-inputs {
   display: flex;
   gap: 0.625rem;
-  width: 320px;
+  width: 280px;
   margin: 0.125rem auto;
 
   /* margin: 0 25px; */
@@ -64,7 +64,7 @@ input {
 }
 
 .publish-btn {
-  width: 320px;
+  width: 280px;
   height: 60px;
   margin: 0.5rem auto;
   font-size: 1.375rem;
@@ -90,7 +90,7 @@ input {
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
-  width: 320px;
+  width: 280px;
   min-height: 100px;
   padding: 0.5rem;
   margin: 1rem auto;
